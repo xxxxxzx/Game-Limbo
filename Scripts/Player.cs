@@ -11,11 +11,6 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private float _speed = 2.0f;
 
-    //get handle to rigidbody
-    // Start is called before the first frame update
-
-    //variable for jump
-    //variable grounded = false
     void Start () {
         _rigid = GetComponent<Rigidbody2D> ();
     }
@@ -26,25 +21,31 @@ public class Player : MonoBehaviour {
         Movement ();
 
     }
-
+    /*
+    Movement() function is used to detect the input of A, D and Space Key.
+    Then the character will react to the input.
+     */
     void Movement () {
 
         //horizontal input from lef/right
         float move = Input.GetAxisRaw ("Horizontal");
 
+        //If space is pressed, use IsGrounded() to judge whether the character should jump/is grounded
         if (Input.GetKeyDown (KeyCode.Space) && IsGrounded () == true) {
-            Debug.Log ("Jump");
-            // _rigid.velocity = new Vector2 (_rigid.velocity.x, _jumpForce);
             _rigid.AddForce(transform.up * _jumpForce);
-            Debug.Log(transform.up * _jumpForce);
-            StartCoroutine (ResetJumpRoutine ());
+            Debug.Log("Jumpforce is "+transform.up * _jumpForce);
+            StartCoroutine (ResetJumpRoutine ()); //reset the status of _resetJump to false every 0.1 second
         }
 
-        //current velocity = new velocity (horizontal input,current velocity.y)
-        // _rigid.velocity = new Vector2 (move * _speed, _rigid.velocity.y);
         _rigid.AddForce(new Vector2(move,0.0f) * _speed);
+        Debug.Log("Speed is "+_speed+"\nHorizontal movement is "+move);
     }
 
+    /*
+    IsGrounded() function uses Raycast to find out whether the character is grounded
+    so that it will tell could the character jump.
+    @reuturn true iff the character is grounded
+     */
     bool IsGrounded () {
         RaycastHit2D hitInfo = Physics2D.Raycast (transform.position, Vector2.down, 0.4f, 1 << 8);
         return (hitInfo.collider != null);
