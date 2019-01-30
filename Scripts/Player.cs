@@ -5,11 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour {
     private Rigidbody2D _rigid;
     [SerializeField]
-    private float _jumpForce = 5.0f;
+    private float _jumpForce = 150.0f;
 
     private bool _resetJump = false;
     [SerializeField]
-    private float _speed = 2.0f;
+    private float _speed = 5.0f;
 
     void Start () {
         _rigid = GetComponent<Rigidbody2D> ();
