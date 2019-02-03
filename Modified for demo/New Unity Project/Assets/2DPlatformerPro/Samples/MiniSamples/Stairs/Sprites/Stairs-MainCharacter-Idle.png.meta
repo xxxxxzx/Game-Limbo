@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: a1fd84518492a81448b619f15dd6a6ec
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player-Idle_0
+    21300002: Player-Idle_1
+    21300004: Player-Idle_2
+    21300006: Player-Idle_3
+    21300008: Player-Idle_4
+    21300010: Player-Idle_5
+    21300012: Player-Idle_6
+    21300014: Player-Idle_7
+    21300016: Player-Idle_8
+    21300018: Player-Idle_9
+    21300020: Player-Idle_10
+    21300022: Player-Idle_11
+    21300024: Player-Idle_12
+    21300026: Player-Idle_13
+    21300028: Player-Idle_14
+    21300030: Player-Idle_15
+    21300032: Player-Idle_16
+    21300034: Player-Idle_17
+    21300036: Player-Idle_18
+    21300038: Player-Idle_19
+    21300040: Player-Idle_20
+    21300042: Player-Idle_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 65
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 106
+        width: 65
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 106
+        width: 65
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

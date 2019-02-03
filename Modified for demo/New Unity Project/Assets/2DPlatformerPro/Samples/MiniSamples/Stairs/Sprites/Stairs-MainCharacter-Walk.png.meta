@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: a81c69c8321eeee49ba73e0e43039a7f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player-new_walk_0
+    21300002: Player-new_walk_1
+    21300004: Player-new_walk_2
+    21300006: Player-new_walk_3
+    21300008: Player-new_walk_4
+    21300010: Player-new_walk_5
+    21300012: Player-new_walk_6
+    21300014: Player-new_walk_7
+    21300016: Player-new_walk_8
+    21300018: Player-new_walk_9
+    21300020: Player-new_walk_10
+    21300022: Player-new_walk_11
+    21300024: Player-new_walk_12
+    21300026: Player-new_walk_13-stairs
+    21300028: Player-new_walk_14
+    21300030: Player-new_walk_15
+    21300032: Player-new_walk_16
+    21300034: Player-new_walk_17
+    21300036: Player-new_walk_18
+    21300038: Player-new_walk_19
+    21300040: Player-new_walk_20
+    21300042: Player-new_walk_21
+    21300044: Player-new_walk_22
+    21300046: Player-new_walk_23
+    21300048: Player-new_walk_24
+    21300050: Player-new_walk_25
+    21300052: Player-new_walk_26
+    21300054: Player-new_walk_27
+    21300056: Player-new_walk_28
+    21300058: Player-new_walk_29
+    21300060: Player-new_walk_30
+    21300062: Player-new_walk_31
+    21300064: Player-new_walk_32
+    21300066: Player-new_walk_33
+    21300068: Player-new_walk_34
+    21300070: Stairs-MainCharacter-Right
+    21300072: Player-new_walk_13
+    21300074: PLayer-new-walk-stairsright
+    21300076: Plater-new_walk_stairs_right
+    21300078: Plater_Stairs_right
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player-new_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_6
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_9
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_12
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Plater_Stairs_right
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 362
+        width: 99
+        height: 150
+      alignment: 9
+      pivot: {x: .400000006, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_15
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_16
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_17
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_18
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_19
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_23
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_27
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_28
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_29
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_30
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_31
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_32
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_33
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-new_walk_34
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 212
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 362
+        width: 99
+        height: 150
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 2f05458841532fb40a807f4ab557e3c5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player-walk_stairs2_0
+    21300002: Player-walk_stairs2_1
+    21300004: Player-walk_stairs2_2
+    21300006: Player-walk_stairs2_3
+    21300008: Player-walk_stairs2_4
+    21300010: Player-walk_stairs2_5
+    21300012: Player-walk_stairs2_6
+    21300014: Player-walk_stairs2_7
+    21300016: Player-walk_stairs2_8
+    21300018: Player-walk_stairs2_9
+    21300020: Player-walk_stairs2_10
+    21300022: Player-walk_stairs2_11
+    21300024: Player-walk_stairs2_12
+    21300026: Player-walk_stairs2_13
+    21300028: Player-walk_stairs2_14
+    21300030: Player-walk_stairs2_15
+    21300032: Player-walk_stairs2_16
+    21300034: Player-walk_stairs2_17
+    21300036: Player-walk_stairs2_18
+    21300038: Player-walk_stairs2_19
+    21300040: Player-walk_stairs2_20
+    21300042: Player-walk_stairs2_21
+    21300044: Player-walk_stairs2_22
+    21300046: Player-walk_stairs2_23
+    21300048: Player-walk_stairs2_24
+    21300050: Player-walk_stairs2_25
+    21300052: Player-walk_stairs2_26
+    21300054: Player-walk_stairs2_27
+    21300056: Player-walk_stairs2_28
+    21300058: Player-walk_stairs2_29
+    21300060: Player-walk_stairs2_30
+    21300062: Player-walk_stairs2_31
+    21300064: Player-walk_stairs2_32
+    21300066: Player-walk_stairs2_33
+    21300068: Player-walk_stairs2_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player-walk_stairs2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .238495067, y: .0831566304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .532847464, y: .0101906108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .134232134, y: .153483078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .340465397, y: .0904608816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_10
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_11
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_12
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .129494756, y: .0934919193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_13
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_14
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_15
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_16
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .121172115, y: .0944488868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_17
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: -.0880398229, y: .405493468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_18
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_19
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_20
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .60557121, y: .0164941866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_21
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .188934699, y: .089956969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_22
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 350
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_23
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .217211306, y: .118235648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_24
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 350
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .41411978, y: .0679799765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .0816385448, y: .174607828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 188
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .0816387609, y: .205597579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 188
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .0661440268, y: .205597773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_28
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 188
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .232627213, y: .0958848149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 188
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 189
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 188
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_32
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 188
+        width: 81
+        height: 162
+      alignment: 9
+      pivot: {x: .153737009, y: .0991225094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 188
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Player-walk_stairs2_34
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 188
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

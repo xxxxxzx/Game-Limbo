@@ -1,0 +1,372 @@
+Platformer PRO
+Version: 1.2.2
+
+Welcome to Platformer PRO use the menu for help -> Assets/Platformer PRO/Show Welcome
+
+----------------
+Version History
+----------------
+
+1.2.3
+
+ * Added Unity 2017.2 support.
+ * FIX: AttackStarted event wasn't sent in some cases. It is now.
+
+1.2.2
+
+ * Added Unity 2017.1 support.
+
+1.2.1
+
+ * Model Direction facer updated to work with enemy.
+
+ * Updated EventResponder for ItemEvents to use the amount sent as part of event instead of amount in the ItemManagaer. UPGRADE NOTE: Double check your item event conditions.
+
+ * Updates for Unity 5.5 to avoid warnings in console.
+
+ * Cleaned up persistence for ActivationGroups. They can now be more easily used to create powers that last for an entire game, or even across games (for example IAP).
+
+ * Extra options for activation group (e.g. Can Click When Paused).
+
+ * FIX: for CANCEL style combo attacks.
+
+ * FIX: for attack events not being sent or not having full details.
+
+ * SAMPLE REMOVAL: The 2.5D Stealth sample was very large and seldom referenced, it has been removed. 
+
+1.2.0
+
+* CommandBro sample now supports multiple, switchable weapons with example of flame thrower and shotgun.
+
+* New and improved swimming movement with breath.
+
+* Editor Updates for Unity 5.4.x ... as a side effect we now have much more undo support :)
+
+* Block movement. Press a button to block attacks with variations for high/low/etc.
+
+* New ActivationGroup which allow you to make all kinds of cool stuff such as mutli-state puzzles, weapon systems (see above), etc.
+
+* Added an option to make additional conditions on platforms either apply or ignore collisions (previously it always applied when condition met).
+
+* Small updates to the 2-player CommandBro sample variation.
+
+* Added simple landing movement to make it easier to play landing states. Also added a variation which causes damage.
+
+* Added a movement for climbing across ceilings (horizontally). You can also use for ropes and similar by setting the climb up value to false and using a layer that is not in the geometry layer.
+
+* FIX: Combo attacks now properly respect the button input window. UPGRADE NOTE: you maay need to reviews your combo settings.
+
+* FIX: Fixed float movement so it works again.
+
+
+1.1.5
+
+* Updated CharacterLoader to better support selectable characters and multi-player.
+
+* Added MenuItems to support selectable number of players, and selectable characters.
+
+* Changed EventResponder Inspector to use human readable names with multiple levels of menu instead of being a large list of enum values.
+
+* Added a Projectile Aimer which aims directly at a target.
+
+* Additional Conditions can now be applied to all movements.
+
+* Additional Conditions can now respond to 'success' or 'activation' (for example consume items or health if all conditions are met).
+
+* Simplified the creation of power-ups which affect available movements (using new PowerUpConditions).
+
+* Added a RailPlatform which locks player to a 'rail' with many options to control how the player moves on rail (e.g. create a mining cart).
+
+* Cleaned up some Character methods to simplify development of highly custom movements. UPGRADE NOTE: This may affect your custom movement that rely on checking or applying collisions manually.
+
+* Added two new wall movements: wall run and wall climb.
+
+* Fix: Waypoint mover one-off re-enable no longer causes errors.
+
+* Fix: Damage Movement inspector no longer has mismatched descriptions in Unity 5.
+
+* Fix: Damage Movement Animation with Bobble wont freeze on passthrough platforms.
+
+
+1.1.4
+
+* Added a shake effect which can be called from any event. Mainly for camera shakes, but you can use it to shake anything.
+
+* Added a new way of adding extra conditions to triggers, platforms and attacks. See AdditionalConditions.
+
+* Added Persistable Objects which allow you to easily save the state of enemies, doors, platforms, and items across a whole game.
+
+* Added more events and filter options for attack (AttackCausedDamage, AttackFinished) making it easier to more attack specific special effects.
+
+* Added more filter options for item events.
+
+* Added EventResponseTypes for collecting items and power ups (and consuming items and resetting power ups).
+
+* Added platform sampler with lots of pre-configured examples of platforms, hazards and items. Even more coming soon.
+
+* Added a damage/death movement which can play different animations based on damage type. Note this movement must be added directly not selected from the drop down.
+
+* Added balance on edge movement.
+
+* Added UI controls to reorder events (applies to events with 0 delay only).
+
+* Added more validators to help find misconfiguration.
+
+* Improvements for the wall cling wall movement. UPGRADE NOTE: It now sends animation states for WALL_JUMP, WALL_SLIDE and WALL_CLING not just WALL_CLING.
+
+* Powerbomb animation clean-up.
+
+* Fix: new easy input enable/disable so it works outside of editor. Oops.
+
+* Fix: bug with EventResponder on AOT platforms.
+
+* Fix: pause time in WayPointMover.
+
+* Fix: on spawner when spawns is -1.
+
+* Fix: on EventResponder, some types were getting Character reference incorrectly.
+
+
+
+1.1.3
+
+* Added a waypoint platform that moves from point to point (with loop, ping-pong, one off and random options).
+
+* Added a CharacterHitBox with "multi hit" so you can have (for example) melee attacks that hit multiple enemies in one frame.
+
+* Added n-jumping (multiple double jumps) to digital and physics air movement.
+
+* Made it much easier to disable input.
+
+* Fixes for PowerBomb attack.
+
+* Added an option to ledge climb to support a dismount offset, which helps with certain kinds of sprite based animations.
+
+* Improvements to event responders and SpecialMovement_PlayAnimation to better support dialogs. UPGRADE NOTE: You should now use PLAY_ANIMATION instead of SPECAIL_MOVE_ANIMATION in your event repsonses.
+
+* Fix: Added tile support to ground movement pass down.
+
+* Fix: Small clean up of the autostick wall jump/slide to support 0 gravity setting.
+
+* Fix: Made HasItem work for stackable items.
+
+* Fix: Made downwards non-rotating slope movement bobble free (previously under certain conditions there was a perceptible bounce).
+
+
+1.1.2
+
+ * Added stair walking and stair walking mini sample!
+ 
+ * Added WebGL support!
+ 
+ * Added a PowerBomb / Butt Drop movement.
+ 
+ * Made head colliders use smart raycasts like sides and feet do. Supports super high jumping characters. UPGRADE NOTE: Although not required its a good idea to recreate your head colliders.
+ 
+ * Added ability to ignore any given collider at any given time. Handy for special moves, enemies, and PVP.
+
+ * Fix: Used above ignore colliders to improve passdown movement.
+ 
+ * Added a base class for enemies that rotates to slopes instead of sticking to them.
+ 
+ * Added a class for rotating platforms and added some samples of it in the Hero Sample.
+ 
+ * Added examples for the "Bounce Runner" tutorial.
+ 
+ * Made the passthrough leeway a user definable value (Character-> Advanced Settings) instead of calculating it. UPGRADE NOTE: If you are using a high gravity you may need to change this value.
+ 
+ * Fix: Added some #if UNITY_EDITOR tags that were causing an error on build.
+ 
+
+1.1.1
+
+ * Added enemy knockback.
+ 
+ * Tagged property update.
+  
+ * Added a DamageType filter to the sequence enemy exit condition for number of hits.
+  
+ * Added a base priority to DAMAGE (50) and DEATH (100) animations so by default they take priority over anything else.
+ 
+ * Added double tap to run movement.
+ 
+ * Added a Mario style destructible brick.
+
+ * Fix for low gravity pass through platform collissions.
+ 
+ * Fix: Don't allow enemy melee attack to be interrupted mid-way.
+ 
+ * Fix: Jetpacks will now take control of movement when y velocity > 0 which fixes some edge cases.
+
+ * Fix: Updated 2D bridge to better handle priority. UPGRADE NOTE: This may affect how your existing animations play.
+  
+ * Fix: Send DOUBLE_JUMP state from Airmovement Variable with Inertia.
+ 
+
+1.1.0
+
+ * New (and powerful) sequence driven enemy for easily creating complex enemies and bosses.
+ 
+ * Added Waypoint Enemy with scene view drag and drop waypoint editor.
+ 
+ * AWESOME new grappling hook movement, character and sample.
+ 
+ * Improvements to ceiling hang, plus ability to climb up platforms from ceiling hang.
+ 
+ * Added cooldown option to attacks.
+ 
+ * Added particle effect bridge. Easily attach lots of particle effects to different animation states.
+ 
+ * Fixed bug which stopped the combo attack inspector from removing attacks.
+ 
+ * Fixed a bug where very high gravity caused players to fall through passthrough platforms.
+ 
+ * CameraZones are now calculated independent of resolution. UPDATE NOTE: You will need to update your camera zones to increase width and height.
+ 
+ * Added options for random item spawning. UPDATE NOTE: If you are using spawn on headbutt to spawn items it will need to be upgraded to use the new RandomItemSpawner.
+ 
+ * Enemy spawning with instance pooling. Pooling/spawning can be used for other GameObjects too.
+ 
+ * Wall jump improvements to increase robustness and flexibility UPDATE NOTE: You may need to adjust your settings.
+ 
+ * You can now save individual movement settings to a file (and load them back as desired).
+ 
+ * Improved grenade projectile so its much easier to use and added it to the CommandBro sample.
+ 
+ * Added support for tiled ladders (i.e. a ladder made of multiple blocks each with their own collider).
+ 
+ * Updated item manager so its easier to add items from your own code.
+ 
+ * Added tagged properties which allow you to change multiple values across multiple movements with a single call or event response.
+ 
+
+1.0.6
+
+ * Added hang from ceiling movement and updated calculation of parenting to better support parenting from head colliders.
+ 
+ * Improved 2DTK Animator.
+
+ * Added a simple conveyor belt platform.
+  
+ * Added option to filter sound effects in the sound effect bridge by previous state.
+ 
+ * Added an alternative version of AirMovement/Physics/With Interia.
+ 
+ * Added Damage Immunity option to Character Health so you can specify differing damage reductions/immunities based on damage type.
+ 
+ * Added a Climb Movement that can climb in any direction (i.e. for walls, chain link fences, etc).
+ 
+ * Renamed 'Switch Colliders' to 'Flip Raycasts' to clarify what it does.
+ 
+ * Fixed a bug in Combo Attack Inspector which printed errors to the console.
+ 
+ * Fixed a small ladder movement bug.
+ 
+ * Worked around Unity bugs to make Character Debuggers and Inspectors more reliable.
+ 
+ * Update so that different attacks using the same hit box can still have different damage amounts and damage types.
+ 
+ 
+1.0.5
+
+ * Added Animation Bridges for 2D ToolKit.
+ 
+ * Added new FX for flashing a sprite (e.g. for flashing when invulnerable).
+ 
+ * Added option to make PowerUp reset when character is damaged. 
+ 
+ * Added a character knock back damage movement.
+
+ * Added direct control of lives, max lives, max health, and max item count. These can now be attached to events.
+ 
+ * Added multi-projectile attack to have an attack which sprays out lots of bullets with various options for how they behave.
+ 
+ * Added SetVelocity/AddVelocity as event repsonses. Useful for things like knock back.
+ 
+ * Added digital with slide which has digital movement, but also allows character to be pushed around if no input is being provided and can come to a sliding halt instead of an instant one.
+ 
+ * Fixed spawn on headbutt (it worked when adding items but not if a spawn prefab was set).
+ 
+ 
+1.0.4
+ 
+ * Added crouch jump. Demonstrated in HeroSample variation.
+ 
+ * Added auto-fire.
+ 
+ * Added sample of a wind affector which can blow your character around.
+ 
+ * Added ability for snail enemy in AlienSample to collect coins and damage other enemies when in shell mode (like a turtle in mario).
+ 
+ * Added ability for 2DWithModifiers bridge to apply facing LEFT and facing RIGHT variations to animations.
+ 
+ * Changed EventResponseType.PLAY_ANIMATION to EventResponseType.SPECIAL_MOVE_ANIMATION, PLAY_ANIMATION now plays an Animation or a sepecific state in an Animator.
+ 
+ * Made DelayedJump more robust so it can be added in front of more jump movements.
+ 
+ * Crouch with Crawl can now use down OR an action button.
+ 
+ * Updated animation states for Physics with Run to include SLIDE states.
+ 
+ 
+1.0.3
+ 
+ * Added new 'with transition' animator.
+ 
+ * Added an option for 4-way aiming to complement 6-way and 8-way aiming.
+ 
+ * Added an optional projectile delay to better time projectile attacks with animations.
+ 
+ * Added a setting so crouch can use action button instead of DOWN on the vetical axis.
+ UPGRADE NOTE: You will need to re-apply many of your crouch settings after this update. Take a screenshot.
+ 
+ * Fixed bug with SmoothCenteringZoneCamera and CameraZones.
+ 
+ * Fixed bug with Variable Jump Height Air Movements which was inconsistent when the jump button was pressed rapidly.
+ 
+ * Fixed bug with Physics Air Movements which wasn't maintaining velocity after falling.
+ 
+ * Fixed bug in Jetpack as double jump.
+
+ * Fixed bug which allowed digital air movement to ignore MoveX overrides.
+ 
+ * Updated package labels.
+ 
+ 
+1.0.2
+
+ * Added ComboAttacks and DashAttacks.
+ 
+ * Improved most air movements to provide more consistent gravity application when grounded. 
+   UPGRADE NOTE: You will need to readjust (increase) the jump velocity for any air movements using physics.
+   
+ * Added a Weild Weapon movement to simplify transition to a new weapon with new moves and animations.
+ 
+ * Added a DOUBLE_JUMP animation state to easily enable different animation for double jump.
+   UPGRADE NOTE: You may need to add this state even if you don't use double jump as some other movements may trigger this state (e.g. wall movements which use override jump).
+   
+ * Added new options for attack animation mode.
+ 
+ * Added more options for Attack Location and added "movement blocking" to optionally prevent some movements triggering while attacking.
+ 
+ * Added Float and Fly movements.
+ 
+ * Added support for third party input package Rewired.
+
+
+1.0.1
+
+ * Added variation to alien sample showing health bar and 'health pack' items to boost health.
+
+ * Fixed bug where standard ledge climb would start REACHING movement when outside of the grasp distance.
+
+ * Added an alternative jetpack movement which only takes effect when in the air, much like a double jump.
+
+ * Small clean-ups to various samples.
+
+ * Submitted alternative package with Unity 5 to avoid warning message showing up in the asset store.
+ 
+ 
+1.0.0
+
+ * Initial release.

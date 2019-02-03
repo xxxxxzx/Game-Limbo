@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_4;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\2DPlatformerPro\Samples\PlatformHowToSample\SamplerLoadNextLevel.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\AnimationMapping.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\AnimationPauser.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\AnimationState.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\AnimationTransitionMapping.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\AnimatorControllerMapping.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\AnimationBridge_2DCharacterSystem.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\AnimationBridge_DebugLog.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\IAnimationBridge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\LegacyAnimation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\LegacyAnimationBridge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\MecanimAnimationBridge_2D.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\MecanimAnimationBridge_2DWithModifiers.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\MecanimAnimationBridge_2DWithTransitions.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\MecanimAnimationBridge_3D.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\MecanimAnimationBridge_3DExtraParams.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\Bridges\MecanimOverrideAsAnimationBridge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\DontRotateSprite.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\LeftRightAnimatorOverrideDirectionFacer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\ModelRotationDirectionFacer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\UnitySpriteAimDirectionFacer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\UnitySpriteDepthHandler.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Animation\UnitySpriteDirectionFacer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\AttackEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\AttackLocation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\AttackType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\BasicAttackData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\BasicAttacks.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\BasicAttacksWithAutoFire.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\BlockAttack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\CharacterHitBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\CharacterHitBoxWithMultiHit.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\ComboAttackData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\ComboAttacks.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\DashAttack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\JumpOnHeadHitBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\MultiProjectileAttackData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\MultiProjectileAttacks.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\PowerBombAttack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\AlternateAxisAimer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\AutoAimProjectileAimer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\GrappleAimer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\GrenadeProjectile.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\Projectile.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\ProjectileAimer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Attacks\Projectiles\ProjectileHitBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Audio\AudioManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Audio\MusicPlayer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Audio\SoundEffect.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Audio\SoundEffect_Bridge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\CameraTransitionPoint.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\CameraZone.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\FixedZoneCamera.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\PlatformCamera.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\QuantizeMovementToPixels.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\SimpleParallax.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Camera\SmoothCenteringZoneCamera.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Character\Character.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Character\CharacterReference.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Character\CharacterRotationPoint.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Character\CharacterState.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Character\ICharacterReference.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Character\IMob.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\ActionButtonCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\ActivatedCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\ActiveMovementCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\ActiveMovementNotInListCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\AdditionalCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\AndConditionCombiner.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\CoolDownCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\DeactivatedCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\FacingDirectionCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\HeightCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\InputDirectionCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\IsInColliderCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\JumpButtonCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\MinimumHealthCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\MustBeAirborneCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\MustBeGroundedCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\MustHaveItemCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\OrConditionCombiner.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Conditions\PowerUpActiveCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_Base.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_DisableAfterDelay.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_FadeToColour.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_Flash.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_ImpartForce2D.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_MoveTo.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_Shake.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_SnapTo.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_SpinningObject.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_UIFadeToColour.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\FX_UIMoveTo.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\ParticleEffect_Bridge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\Tween\ColorTweener.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\Tween\IMobPositionTweener.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\Tween\ITweener.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\Tween\PositionTweener.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\Tween\RotationBySpeedTweener.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Effects\Tween\TweenMode.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_HideOnDamage.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_PatrolToAttack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_PatrolToChargeToAttack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_SeeAndCharge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_SeeAndShoot.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_SeeAndShootWithHide.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\AI\EnemyAI_SenseAndShoot.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Enemy.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\EnemyHazard.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\EnemyHitBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\EnemyHurtBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\EnemyHurtBoxWithDamageFilter.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\EnemySpawner.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\EnemyStateToAnimation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\ICompletableMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyDeathMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_Charge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_ChargeAtTarget.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_ChargeWithBounce.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_Damage_PlayAnimationOnly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_Damaged_Bobble.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_Damaged_Knockback.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_Distributor.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_FlyUpAndDown.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_HideWithDeploy.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_MeleeAttack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_MoveToPosition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_Patrol.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_PatrolWithShoot.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_PlayAnimationOnly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_ShootWithDeployAndAim.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_ShowDialog.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_SimpleShoot.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_VerticalSnapper.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyMovement_WaypointMover.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\Movement\EnemyStateToMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\RotatingEnemy.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\SequenceDrivenEnemy.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Enemies\StompOnHead.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\AutoEvent.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\ActivationEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\AnimationEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\CharacterEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\DamageInfoEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\DoorEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\ExtraDamageInfoEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\HealedEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\IntBasedEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\ItemEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\LevelEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\PhaseEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\SceneEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventArgs\StateEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventResponder.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventResponse.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\EventResponseType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\EventSystem\GenericResponder.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\CharacterLoader.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\LevelLockData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\LevelManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\LevelManagerData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiCharacterLoader.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\AlignToBottom.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\AlignToLeft.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\AlignToMiddle.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\AlignToRight.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\AlignToTop.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\MultiPlatformEnabler.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\MultiPlatformEnablerCondition.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\MultiPlatformSupport\MultiPlatformScaler.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\Persistable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\PersistableObject.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\PersistableObjectData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\PersistableObjectManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\PersistableObjectType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\RespawnPoint.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\TimeManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\GameManagement\TimeManagerWithTimer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\CharacterBlockingHurtBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\CharacterHealth.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\CharacterHurtBox.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\DamageImmunity.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\DamageInfo.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\DamageType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\DeathAction.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\DeathActionType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\Hazards\Hazard.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\HazardsAndDamage\IHurtable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Helpers\RenderParticlesOnLayer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\AxisAsButton.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\BufferedInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\ButtonState.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\DisabledInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\EscapeKeyHandler.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Input.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\KeyType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\MultiInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\StandardInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\StandardInputData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\BasicTouchInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\ButtonEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\ITouchAxis.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\ITouchButton.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\TouchButton.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\TouchButtonExit.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\Touch\TwoButtonTouchAxis.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\TriggerAsButtonInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Input\UnityInput.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ActivationGroups\ActivationGroup.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\CollectibleTypeData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\Item.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ItemAndCount.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ItemClass.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ItemData.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ItemHealth.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ItemManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\ItemsToLives.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\PowerUps\PowerUp.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\PowerUps\PowerUpManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\PowerUps\PowerUpResponse.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\StackableItem.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Items\TimeBoost.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_CrouchJump.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_DelayedJump.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Digital.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Digital_V2.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_DigitalNoDirChange.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_DoubleJumpJetpack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Float.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Fly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_JetPack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_MecanimDrivenAnimation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Physics.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_TeleportJump.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Variable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_VariableDoubleJumpOnly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_VariableWithDoubleJump.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_VariableWithInertia.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_VariableWithInertiaAndDouble.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_VariableWithInertiaV2.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Air\AirMovement_Wrapper.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\BaseCollisions.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\BaseMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\ClimbMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\ClimbMovement_FourWay.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\ClimbMovement_HorizontalOnly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\ClimbMovement_Rope.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\LadderFacingDirectionOverride.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\LadderMovement_Digital.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\LadderMovement_DigitalForTiles.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\Rope.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\RopeAnchor.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\RopeMotor.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Climbing\RopeSection.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\BasicRaycast.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\BoxCollider2DExtensions.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\IRaycastColliderWithIMob.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\NoAllocationRaycast.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\NoAllocationSmartFeetcast.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\NoAllocationSmartHeadcast.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Colliders\NoAllocationSmartSidecast.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DamageMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DamageMovement_AnimationOnly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DamageMovement_AnimationPerDamageType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DamageMovement_AnimationWithBobble.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DamageMovement_ExplosiveForce.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DamageMovement_RandomAnimation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Damage\DeathMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Gravity\FlippableGravity.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Gravity\Gravity.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Gravity\IFlippableGravityMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\AirMovement_DigitalInFacingDirection.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\CrouchHelper.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_BalanceOnEdge.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_Crouch.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_CrouchNoCrawl.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_CrouchWithCrawl.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_CrouchWithSlide.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_CrouchWithSlideAndCrawl.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_CurveDriven.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_Digital.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_DigitalDoubleTapRun.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_DigitalInFacingDirection.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_DigitalStopOnUpDown.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_DigitalWithRun.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_DigitalWithSlide.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_LandWithDamage.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_MecanimAnimationDriven.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_PassDown.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_PassDownByTimeOnly.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_Physics.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_PhysicsWithLoop.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_PhysicsWithRun.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_Pull.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_Push.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_RollOnLand.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_SimpleLand.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Ground\GroundMovement_Stairs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\IPhysicsMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\MecanimRootAnimationMatcher.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Movement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\MovementInfo.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\MovementVariables\MovementVariable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\RaycastDirection.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\Breath.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\ForceApplier.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\GrapplingHookProjectile.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_DirectionalSwim.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_GrapplingHook.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_HangFromCeiling.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_HangFromCeilingWithClimb.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_JumpOnHead.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_MecanimTargetted.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_PlayAnimation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_Rail.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_Swim.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SpecialMovement_WeildWeapon.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Special\SwimDirectionRotator.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Validation\ValidationResult.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\VelocityType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\LedgeClimbEnums.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_AutoStick.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_LedgeClimb.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_WallCling.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_WallClingAndClimb.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_WallClingAndRun.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_WallJump.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_WallJump_V2.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Movement\Wall\WallMovement_WallJump_V3.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\NamedProperties\TaggedPropertyAttribute.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\BackAndForthPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\CharacterPhysicsCollider.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\ConveyerPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\DamageAfterTimePlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\DepthPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\DepthSwitchPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\DestroyOnHeadbutt.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\DestructiblePlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Door.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\EnterableDoor.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\FallingPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\HorizontalSpringboardPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\IgnoreColliderPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\IPullable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\LoopPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\ParentOnStandPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Platform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\PlatformCollisionArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\PlatformLogger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Pushable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\PushablePullable.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\RailPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\RandomItemSpawner.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\RisingDoor.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\RotatingPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\SpawnOnHeadbutt.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\SpecialMovementPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\SpringboardPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Stairs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\TrapdoorPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\TriggerPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\OneWayTrigger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\ProximityTrigger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\TimerTrigger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\Trigger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\TriggerCombiner.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\TriggerEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\TriggerPlatformTrigger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\TriggerTarget.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\Triggers\UnityTrigger.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\UpAndDownPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\UpAndDownPlatformWithReturn.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\WaypointMoverPlatform.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Platforms\WindAffector.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ScoresAndStats\IIntegerEventSender.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ScoresAndStats\ScoreEventArgs.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ScoresAndStats\ScoreManager.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ThirdpartyWrappers\2DCharacterSystemSampler\SimpleCharacter.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ThirdpartyWrappers\AnimationBridge_2DTK.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ThirdpartyWrappers\AnimationBridge_2DTKWithTransitions.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\ThirdpartyWrappers\RewiredInputWrapper.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIActionBarButton.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIActionBarButton_Activation.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIActionBarButton_Attack.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIActionBarButton_ConsumeItem.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIActivationGroupInteraction.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIBreath_PercentageBar.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UICoolDownIcon.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIDialog.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIDialogTyper.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIGameOverScreen.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIHealth_Icons.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIHealth_PercentageBar.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UILevelStartScreen.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UILivesCounter.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIScore.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIStackable_PercentageBar.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UIStackableItemCounter.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\InGameUI\UITimer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Input\UIInputOverlay.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Input\UIShowButton.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\LevelSelect\UILevelSelectCharacter.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\LevelSelect\UILevelSelectTile.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\IMenu.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\IMenuItemRenderer.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIBasicMenu.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuAction.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItem.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItem_CharacterSelect.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItem_KeyConfig.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItem_NumberOfPlayers.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItem_SwitchInputType.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItem_Volume.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItemRenderer_Image.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItemRenderer_SimpleText.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItemRenderer_TwoColumn.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIMenuItemRenderer_Volume.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIPauseMenu.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIScrollingMenu.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\UI\Menus\UIVolumePip.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\FPSDisplay.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\GameObjectExtensions.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\Pool.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\PriorityQueue.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\Spawner.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\SpriteForwarder.cs" />
+     <Compile Include="Assets\2DPlatformerPro\Scripts\Utility\StringExtensions.cs" />
+     <None Include="Assets\2DPlatformerPro\ReleaseNotes.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\PlatformHowToSample\PlatformSamples-ReadMe.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\AlienSample\Art\ArtCredits-Alien.txt" />
+     <None Include="Assets\2DPlatformerPro\Tutorials\AttackTutorial\Art\ArtCredits-AttackTutorial.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\JetpackSample\Art\ArtCredits-Jetpack.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\LoopyHamster\Art\ArtCredits-LoopyHamster.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\PixtroidSample\Variations\PixtroidVariations-READMEFIRST.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\MiniSamples\MrSprite\Art\ArtCredits-MrSprite.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\Shared\SpriteOpaqueShader.shader" />
+     <None Include="Assets\2DPlatformerPro\Samples\JetpackSample\Variations\JetpackVariations-READMEFIRST.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\Shared\SpriteCutoutShader.shader" />
+     <None Include="Assets\2DPlatformerPro\Samples\Shared\Resources\WASDKeyboardInput.xml" />
+     <None Include="Assets\2DPlatformerPro\Samples\Shared\Resources\DefaultKeyboardInput.xml" />
+     <None Include="Assets\2DPlatformerPro\Samples\PixtroidSample\Art\ArtCredits-Pixtroid.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\ComandBroSample\Art\ArtCredits-CommandBro.txt" />
+     <None Include="Assets\2DPlatformerPro\Samples\Shared\Resources\DefaultControllerInput.xml" />
+     <None Include="Assets\2DPlatformerPro\Samples\AlienSample\Variations\AlienVariations-READMEFIRST.txt" />
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTrackingModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>/Users/lizhiheng/Downloads/Platformer PRO/New Unity Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
